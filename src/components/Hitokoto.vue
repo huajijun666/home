@@ -52,14 +52,14 @@ const getHitokotoData = async () => {
     hitokotoData.from = result.from;
   } catch (error) {
     ElMessage({
-      message: "一言获取失败",
+      message: "一言获取失败(；′⌒`)",
       icon: h(Error, {
         theme: "filled",
         fill: "#efefef",
       }),
     });
-    hitokotoData.text = "这里应该显示一句话";
-    hitokotoData.from = "無名";
+    hitokotoData.text = "∑(っ°Д°;)っ我去，一言呢";
+    hitokotoData.from = "布吉岛";
   }
 };
 
@@ -68,7 +68,7 @@ const updateHitokoto = () => {
   // 防抖
   debounce(() => {
     getHitokotoData();
-  }, 500);
+  }, 200);
 };
 
 onMounted(() => {
