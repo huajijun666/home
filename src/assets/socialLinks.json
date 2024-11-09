@@ -2,37 +2,38 @@
   {
     "name": "Github",
     "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
-    "url": "https://github.com/imsyy"
+    "tip": "启动╰( ´・ω・)つ──☆",
+    "url": "https://github.com/huajijun666/"
   },
   {
     "name": "BiliBili",
     "icon": "/images/icon/bilibili.png",
     "tip": "(゜-゜)つロ 干杯 ~",
-    "url": "https://space.bilibili.com/98544142"
+    "url": "https://space.bilibili.com/587357275"
   },
   {
     "name": "QQ",
     "icon": "/images/icon/qq.png",
-    "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=1539250352"
+    "tip": "加入稽村~(˘▾˘~)",
+    "url": "https://qm.qq.com/q/JQZG1XLkm6"
   },
   {
-    "name": "Email",
-    "icon": "/images/icon/email.png",
-    "tip": "来封 Email ~",
-    "url": "mailto:one@imsyy.top"
+    "name": "饮料",
+    "icon": "/images/icon/drink.png",
+    "tip": "开发喝的饮料(´･ω･)ﾉ",
+    "url": "https://chaoshi.detail.tmall.com/item.htm?id=13031422318&priceTId=213e362a17213690722456015e05ff&spm=a21n57.1.item.1.7e09523cnA3Lnd&utparam=%7B%22aplus_abtest%22:%22d576032d0ce01e38cedd0694a765fed9%22%7D&xxc=ad_ztc&skuId=4502826302154"
   },
   {
-    "name": "Twitter",
-    "icon": "/images/icon/twitter.png",
-    "tip": "你懂的 ~",
-    "url": "https://twitter.com/iimmsyy"
+    "name": "技术支持",
+    "icon": "/images/icon/git.png",
+    "tip": "原仓库 感谢大佬♪(･ω･)ﾉ",
+    "url": "https://github.com/imsyy/home"
   },
   {
-    "name": "Telegram",
-    "icon": "/images/icon/telegram.png",
-    "tip": "你懂的 ~",
-    "url": "https://t.me/bottom_user"
+    "name": "steam",
+    "icon": "/images/icon/steam.png",
+    "tip": "van~(≖ᴗ≖)✧",
+    "url": "https://steamcommunity.com/profiles/76561199732431547/"
   }
 ]
+
