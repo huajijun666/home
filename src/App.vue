@@ -105,22 +105,31 @@ onMounted(() => {
   getWidth();
   window.addEventListener("resize", getWidth);
 
-  // 控制台输出
-  const styleTitle1 = "font-size: 20px;font-weight: 600;color: rgb(244,167,89);";
-  const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
+ // 控制台输出
+  const styleTitle1 = "font-size: 20px;font-weight:normal; color: rgb(244, 167, 89);"
+  const styleTitle2 = "font-size:12px;color: rgb(46,139,87);";
   const styleContent = "color: rgb(30,152,255);";
-  const title1 = "無名の主页";
+  const title1 = "稽菌の主页";
   const title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ /
-  | | | |\\/| |\\___ \\  \\   /    \\   /
- _| |_| |  | |____) |  | |      | |
-|_____|_|  |_|_____/   |_|      |_|`;
-  const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
+        _/\_
+       \    /
+        |/\|
+         /\
+        /  \
+       /  x \
+       / o  \
+      /   o  \ 
+     /  o   . \
+    /      o  x\
+    /  o x     \
+   /  x   o   o \
+  /     o        \
+ /  %  o     x .  \
+/ ________________ \
+  |__| /    \ |___|`;
+  const content = `\n\n版本: ${config.version}\n主页: ${config.home}\n项目原地址: ${config.github}/n这都被你发现了Σ(っ°Д°;)っ`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
-
 onBeforeUnmount(() => {
   window.removeEventListener("resize", getWidth);
 });
