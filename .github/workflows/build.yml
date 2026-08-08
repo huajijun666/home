@@ -8,6 +8,9 @@ on:
       - dev
       - master
 
+permissions:
+  contents: read
+
 jobs:
   release:
     name: Build Website
